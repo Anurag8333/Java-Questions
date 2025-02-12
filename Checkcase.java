@@ -34,6 +34,6 @@ class Checkcase{
             System.out.println("Enter valid character");
         }
 
-       
+       s.close();
     }
 }

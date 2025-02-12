@@ -20,5 +20,6 @@ class Check {
         } else {
             System.out.println("Special Character");
         }
+        s.close();
     }
 }
