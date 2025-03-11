@@ -9,6 +9,8 @@ class techno{
         Scanner s = new Scanner(System.in);
         System.out.println("Enter Number : ");
         int n = s.nextInt();
+         s.close();
+
       if(istech(n)){
         System.out.println("Tech Number");
       } 
