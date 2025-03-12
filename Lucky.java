@@ -9,11 +9,11 @@ class Lucky{
         boolean isDivisibleBy5 = a%5==0;
 
         switch (isDivisibleBy5?1:0) {
-            case 1 -> System.out.println("Divisible by 5");
+            // case 1 -> System.out.println("Divisible by 5");
 
-            case 0 -> System.out.println("Not divisible by 5");
+            // case 0 -> System.out.println("Not divisible by 5");
                 
-            default -> System.out.println("Enter valid Number");
+            // default -> System.out.println("Enter valid Number");
         }
     }
 }
