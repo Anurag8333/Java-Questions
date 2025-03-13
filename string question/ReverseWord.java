@@ -4,21 +4,19 @@ public class ReverseWord {
         //hello world 
         //olleh dlrow
         String s ="Hello World Anurag";
-        String b = "";
+        String word = "";
+        String rev ="";
         for (int i = 0; i < s.length(); i++) {
          if(s.charAt(i)!=' '){
-            b =b+s.charAt(i);
+            word =s.charAt(i)+ word;
          }
          else{
-            for (int j = b.length()-1; j>=0; j--) {
-                    System.out.print(b.charAt(j));               
-            }
-            System.out.print(" ");
-            b="";
+            rev=rev+word+" ";
+            word="";
          }
         }
-        for (int j = b.length()-1; j>=0; j--) {
-            System.out.print(b.charAt(j));               
-    } 
+        rev=rev + word;
+        
+        System.out.println(rev);
     }
 }
