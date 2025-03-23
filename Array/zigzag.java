@@ -8,10 +8,14 @@ public class zigzag {
         // how to merge two array in zigzag manner
         int num =0;
         for (int i = 0; i < arr1.length; i++) {
-          arr3[num] = arr1[i];
-          num++;
-          arr3[num] = arr2[i];  
-          num++; 
+          if(i<arr1.length){
+            arr3[num] = arr1[i];
+            num++;
+          }
+          if(i<arr2.length){
+            arr3[num] = arr2[i];  
+            num++; 
+          }
         }
 
         for (int i = 0; i < (arr1.length+arr2.length); i++) {
